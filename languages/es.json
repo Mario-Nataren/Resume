@@ -1,0 +1,17 @@
+{
+    "profile": {
+        "rol": "Desarrollador Front-end",
+        "description":"Mas de 9 años de experiencia en desarrollo web. Apasionado de las nuevas tecnologias y en especial del ecosistema de CSS y JavaScript"
+    },
+    "experience":{
+        "first-job-title":"Desarrolador Back-end",
+        "first-job-dates":"Enero 1995 - Enero 2000",
+        "first-job-description":"lorem relleno relleno relleno",
+        "second-job-title":"Desarrolador Back-end",
+        "second-job-dates":"Enero 1995 - Enero 2000",
+        "second-job-description":"lorem relleno relleno relleno",
+        "last-job-title":"Desarrolador Back-end",
+        "last-job-dates":"Enero 1995 - Enero 2000",
+        "last-job-description":"lorem relleno relleno relleno"
+    }
+}

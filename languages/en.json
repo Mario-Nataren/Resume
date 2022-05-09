@@ -1,0 +1,17 @@
+{
+    "profile": {
+        "rol": "Front-end Developer",
+        "description":"More than 9 years of experience in web development. Passionate about new technologies and especially the CSS and JavaScript ecosystem. <br> My purpose is to transfer my passion for teaching web technologies to all those who want to start in this field in an updated way, with good practices and form scratch"
+    },
+    "experience":{
+        "first-job-title":"Back-end Devoloper",
+        "first-job-dates":"Jan 1995 - Jan 2000",
+        "first-job-description":"lorem relleno relleno relleno",
+        "second-job-title":"Front-end Developer",
+        "second-job-dates":"Feb 2000 - Mar 2005",
+        "second-job-description":"lorem relleno relleno relleno",
+        "last-job-title":"Front-end Developer",
+        "last-job-dates":"Feb 2017 - Current",
+        "last-job-description":"lorem relleno relleno relleno"
+    }
+}

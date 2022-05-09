@@ -4,156 +4,267 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio Mario</title>
+    <title>MCN</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <header class="hero">
+<body class="dark">
+    <header id="main" class="hero">
         <div class="container">
             <nav class="nav">
-                <a href="#" class="nav__items nav__items--cta">Contactame</a>
-                <a href="#" class="nav__items">Sobre mi</a>
-                <a href="#" class="nav__items">Proyectos</a>
+                <div class="switches">
+                    <div id="toggle-theme" class="toggle-theme">
+                        <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
+                        <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+                    </div>
+                </div>
+                <div class="flags" id="flags">
+                    <div class="flags__item" data-language="es">
+                        <img class="flags__img" src="/assets/icons/mx.svg" alt="Icono Español">
+                    </div>
+                    <div class="flags__item" data-language="en">
+                        <img class="flags__img" src="/assets/icons/us.svg" alt="Icono Español">
+                    </div>
+                </div>
+                <div class="navegation">
+                    <a href="#contact_me" class="nav__items nav__items--cta">Contact me</a>
+                    <a href="#about_me" class="nav__items">About me</a>
+                    <a href="#projects" class="nav__items">Proyects</a>
+                </div>
             </nav>
             <section class="hero__container">
                 <div class="hero__texts">
                     <h1 class="hero__title">Mario Camacho (SCADA DEVELOPER)</h1>
-                    <h2 class="hero__subtitle">Los retos son los que transforman el mundo</h2>
-                    <a href="#" class="hero__cta">Contactame ahora</a>
+                    <h2 class="hero__subtitle">Challenges are what transform the world.</h2>
                 </div>
             </section>
         </div>
-        <div class="hero__wave" style="overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.01,49.98 C150.00,149.98 349.20,-49.98 500.00,49.98 L500.00,149.98 L0.01,149.98 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+        <div class="hero__wave" style="overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.01,49.98 C150.00,149.98 349.20,-49.98 500.00,49.98 L500.00,149.98 L0.01,149.98 Z" class="Wave"></path></svg></div>
     </header>
     <main>
-        <section class="presentation container">
+        <section id="about_me" class="presentation container">
             <img src="assets/Mario.jpeg" alt="" class="presentation__picture">
             <h2 class="subtitle">Mario de Jesus Camacho Nataren</h2>
-            <p class="presentation__copy">Motivado Ingeniero Electrico egresado del Instituto Tecnologico de Tuxtla Gutierrez con mas de 4 años de experiencia en distintos sectores idustrial: alimenticia, farmaceutica y seguridad. Reconocido por brindar servicio de automatizacion y control. Trabajo bajo presion, responsabilidad e iniciativa. Autodidacta y apacionado por el conocimiento en nuevas tecnologias y herramientas. </p>
-            <a href="#" class="presentation__cta">Contactame</a>
+            <p class="presentation__copy">Passionate electrical engineering with 4+ years of experience on food industry, pharmaceutical and security sector. Recognized by provide automation, control and maintenance services. Work under pressure, teamwork, ability to take decisions, responsibility, organization and initiative. </p>
+            <a href="#contact_me" class="presentation__cta">Contactame</a>
         </section>
-        <section class="about container">
-            <div class="about__texts">
-                <h2 class="subtitle">Mis habilidades</h2>
-                <p class="about__paragraph"> Durante mi carrera profesional y el trabajo he aprendido multiples herramientas enfocados al control y automatizacion industrial</p>
-                <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores, labore eaque quo quos mollitia aut? Hic recusandae nisi magni quae. Doloremque saepe illum eos voluptas laboriosam itaque vel perferendis.
-                    Omnis doloremque facere nesciunt ut laudantium soluta beatae cumque aut minima illo cupiditate adipisci consequuntur quasi recusandae ullam, necessitatibus ratione, rerum incidunt amet! Illo nostrum accusamus error, vitae dolore cupiditate.
-                    Dolores, veniam earum. Tempora nam, dolorem totam reprehenderit quasi ducimus, iste, alias saepe dignissimos laborum cupiditate! Laudantium fugit libero voluptatem provident et laborum ex voluptate! Veritatis enim amet corporis ipsam!</p>
-            </div>
 
-            <figure class="about__img">
-                <img src="assets/automatio-article-blog.png" alt="" class="about__picture">
-            </figure>
-            <figure class="about__img about__img--left">
-                <img src="assets/undraw_certificate_re_yadi.svg" alt="" class="about__picture">
-            </figure>
-
-            <div class="about__texts">
-                <h2 class="subtitle">Sobre mi trabajo</h2>
-                <p class="about_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores, labore eaque quo quos mollitia aut? Hic recusandae nisi magni quae. Doloremque saepe illum eos voluptas laboriosam itaque vel perferendis.
-                Omnis doloremque facere nesciunt ut laudantium soluta beatae cumque aut minima illo cupiditate adipisci consequuntur quasi recusandae ullam, necessitatibus ratione, rerum incidunt amet! Illo nostrum accusamus error, vitae dolore cupiditate.
-                Dolores, veniam earum. Tempora nam, dolorem totam reprehenderit quasi ducimus, iste, alias saepe dignissimos laborum cupiditate! Laudantium fugit libero voluptatem provident et laborum ex voluptate! Veritatis enim amet corporis ipsam!</p>
-                <p class="about_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores, labore eaque quo quos mollitia aut? Hic recusandae nisi magni quae. Doloremque saepe illum eos voluptas laboriosam itaque vel perferendis.
-                    Omnis doloremque facere nesciunt ut laudantium soluta beatae cumque aut minima illo cupiditate adipisci consequuntur quasi recusandae ullam, necessitatibus ratione, rerum incidunt amet! Illo nostrum accusamus error, vitae dolore cupiditate.
-                    Dolores, veniam earum. Tempora nam, dolorem totam reprehenderit quasi ducimus, iste, alias saepe dignissimos laborum cupiditate! Laudantium fugit libero voluptatem provident et laborum ex voluptate! Veritatis enim amet corporis ipsam!</p>
+        <section class="container">
+            <h2 class="subtitle">Mis habilidades</h2>
+            <div class="column column--right">
+                <article class="card">
+                    <h2 class="card__title">SCADA</h2>
+                    <small>Años de experiencia</small>
+                    <div class="skills__header">
+                        <span class="skills__start-level">0</span>
+                        <span class="skills__start-level">5</span>
+                    </div>
+                    <div class="Skills">
+                        <div class="skills__item">
+                        <p class="skills__tech">System Platform</p>
+                        <div class="skills__bar skills__bar--90"></div>
+                        </div>
+                        <div class="skills__item">
+                        <p class="skills__tech">Intouch for System Platform</p>
+                        <div class="skills__bar skills__bar--80"></div>
+                        </div>
+                        <div class="skills__item">
+                        <p class="skills__tech">WinCC</p>
+                        <div class="skills__bar skills__bar--70"></div>
+                        </div>
+                        <div class="skills__item">
+                        <p class="skills__tech">RSView 32</p>
+                        <div class="skills__bar skills__bar--70"></div>
+                        </div>
+                        <div class="skills__item">
+                        <p class="skills__tech">FactoryTalk View</p>
+                        <div class="skills__bar skills__bar--60"></div>
+                        </div>
+                        <div class="skills__item">
+                        <p class="skills__tech">Ignition</p>
+                        <div class="skills__bar skills__bar--60"></div>
+                        </div>
+                        <div class="skills__item">
+                        <p class="skills__tech">WinCC OA</p>
+                        <div class="skills__bar skills__bar--40"></div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <h2 class="card__title">PLC</h2>
+                    <div class="Skills">
+                        <div class="skills__item">
+                        <p class="skills__tech">TIA PORTAL</p>
+                        <div class="skills__bar skills__bar--80"></div>
+                        </div>
+                        <div class="skills__item">
+                        <p class="skills__tech">RSLogix 500</p>
+                        <div class="skills__bar skills__bar--50"></div>
+                        </div>
+                        <div class="skills__item">
+                        <p class="skills__tech">RSLogix 5000</p>
+                        <div class="skills__bar skills__bar--70"></div>
+                        </div>
+                        <div class="skills__item">
+                        <p class="skills__tech">Studio 5000</p>
+                        <div class="skills__bar skills__bar--80"></div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <h2 class="card__title">Protocolos Industriales</h2>
+                    <div class="Skills">
+                        <div class="skills__item">
+                        <p class="skills__tech">Modbus</p>
+                        <div class="skills__bar skills__bar--90"></div>
+                        </div>
+                        <div class="skills__item">
+                        <p class="skills__tech">BacNet</p>
+                        <div class="skills__bar skills__bar--80"></div>
+                        </div>
+                        <div class="skills__item">
+                        <p class="skills__tech">TCP/IP</p>
+                        <div class="skills__bar skills__bar--70"></div>
+                        </div>
+                        <div class="skills__item">
+                        <p class="skills__tech">Ethernet IP</p>
+                        <div class="skills__bar skills__bar--80"></div>
+                        </div>
+                        <div class="skills__item">
+                        <p class="skills__tech">Profibus</p>
+                        <div class="skills__bar skills__bar--80"></div>
+                        </div>
+                        <div class="skills__item">
+                        <p class="skills__tech">Profinet</p>
+                        <div class="skills__bar skills__bar--80"></div>
+                        </div>
+                        <div class="skills__item">
+                        <p class="skills__tech">AS-i Bus</p>
+                        <div class="skills__bar skills__bar--80"></div>
+                        </div>
+                    </div>
+                </article>
             </div>
         </section>
-        <section class="projects">
+        <section class="container">
+            <h2 class="subtitle">Experience</h2>
+            <div class="experience__grid">
+                <article class="experience__item">
+                    <div class="experience__company">
+                        <img src="assets/images/ESCAD.jpg" alt="" class="experience__img">
+                        <div class="experience__texts">
+                            <h3 class="experience__name">WinCC OA Programming SCADA at</h3>
+                            <p class="experience__verification">ESCAD </br>Mar 2022 - Present</p>
+                            <p class="experience__verification"></p>
+                        </div>
+                    </div>
+                    <p class="experience__review">Created and implemented SCADA system with WinCC OA, to Integrated different technologist such as CCTV (VMS), access control, Building management system (BMS) through handling of industrial protocols such as BacNet, Omron Fins, SNMP, Profinet, Profibus, TCP/IP and DLL's (programming).</p>
+                </article>
+                <article class="experience__item">
+                    <div class="experience__company">
+                        <img src="assets/images/SISSA.jpg" alt="" class="experience__img">
+                        <div class="experience__texts">
+                            <h3 class="experience__name">SCADA Developer at</h3>
+                            <p class="experience__verification">SISSA MONITORING INTEGRAL </br>Jul 2020 - Mar 2022</p>
+                            <p class="experience__verification"></p>
+                        </div>
+                    </div>
+                    <p class="experience__review">Created and implemented SCADA system with Aveva(System Platform and intouch for system platform) to Integrated different technologist such as CCTV (VMS), access control, Building management system (BMS) through handling of industrial protocols such as BacNet, Omron Fins, SNMP, Profinet, Profibus, TCP/IP and DLL's (programming).</p>
+                </article>
+
+                <article class="experience__item">
+                    <div class="experience__company">
+                        <img src="assets/images/EOLIS.jpg" alt="" class="experience__img">
+                        <div class="experience__texts">
+                            <h3 class="experience__name">Control and Automation Engineer at</h3>
+                            <p class="experience__verification">EOLIS </br> Nov 2019-Jul 2020 </p>
+                        </div>
+                    </div>
+                    <p class="experience__review">Detailed engineering, quotes, programming, commissioning, drawing diagrams of HVAC system connection, HMI, SCADA and PLC programming. </br>Tune PID </br>Configure variable frequency drive.</br>Signal review and test.</p>
+                </article>
+
+                <article class="experience__item">
+                    <div class="experience__company">
+                        <img src="assets/user.png" alt="" class="experience__img">
+                        <div class="experience__texts">
+                            <h3 class="experience__name">Field Services Engineer at</h3>
+                            <p class="experience__verification">AIMSA </br> Jun 2018-Nov 2019 </p>
+                        </div>
+                    </div>
+                    <p class="experience__review">Provide installation, commissioning, and preventive maintenance services. </br>Execute hands-on preventative and corrective maintenance activities to maximize system performance</br>Perform troubleshooting and fault-finding services on site and by telephone and Skype</br>Programming PLC systems/control and HMI/SCADA. Working knowledge of Rockwell automation and SIEMENS</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
             <div class="container">
-                <h2 class="subtitle">Mis Proyectos</h2>
+                <h2 class="subtitle">Proyectos</h2>
                 <div class="projects__grid">
                     <article class="projects__item">
-                        <img src="assets/user.png" alt="" class="projects__img">
+                        <img src="assets/images/VSS.png" class="projects__img">
+                        <a href="https://www.sissamx.com.mx/VSS" target="_blank" class="projects__hover">
+                            <h2 class="projects__title">VSS</h2>
+                            <P>Colaboration in the platform VSS</P>
+                            <i class="far fa-file-alt projects__icon"></i>
+                        </a>
+                    </article>
+                    <article class="projects__item">
+                        <img src="assets/images/UMA.png" alt="" class="projects__img">
                         <div class="projects__hover">
-                            <h2 class="projects__title">Proyecto</h2>
+                            <h2 class="projects__title">HVAC</h2>
+                            <P>Programming PLC and HMI to control HVAC equipment</P>
+                            <i class="far fa-file-alt projects__icon"></i>
+                        </div>
+                    </article>
+                    <article class="projects__item">
+                        <img src="assets/images/CIP.jpg" alt="" class="projects__img">
+                        <div class="projects__hover">
+                            <h2 class="projects__title">IGNITION</h2>
+                            <P>Integrated Clean in place System to COCA-COLA Apizaco</P>
                             <i class="far fa-file-alt projects__icon"></i>
                         </div>
                     </article>
                     <article class="projects__item">
                         <img src="assets/user.png" alt="" class="projects__img">
                         <div class="projects__hover">
-                            <h2 class="projects__title">Proyecto</h2>
+                            <h2 class="projects__title">CIP</h2>
                             <i class="far fa-file-alt projects__icon"></i>
                         </div>
                     </article>
                     <article class="projects__item">
                         <img src="assets/user.png" alt="" class="projects__img">
                         <div class="projects__hover">
-                            <h2 class="projects__title">Proyecto</h2>
-                            <i class="far fa-file-alt projects__icon"></i>
-                        </div>
-                    </article>
-                    <article class="projects__item">
-                        <img src="assets/user.png" alt="" class="projects__img">
-                        <div class="projects__hover">
-                            <h2 class="projects__title">Proyecto</h2>
-                            <i class="far fa-file-alt projects__icon"></i>
-                        </div>
-                    </article>
-                    <article class="projects__item">
-                        <img src="assets/user.png" alt="" class="projects__img">
-                        <div class="projects__hover">
-                            <h2 class="projects__title">Proyecto</h2>
+                            <h2 class="projects__title">Batch System</h2>
                             <i class="far fa-file-alt projects__icon"></i>
                         </div>
                     </article>
                 </div>
             </div>
         </section>
-        <section class="testimony container">
-            <h2 class="subtitle">¿Que dicen de nosotros?</h2>
-            <div class="testimony__grid">
-                <article class="testimony__item">
-                    <div class="testimony__person">
-                        <img src="assets/user.png" alt="" class="testimony__img">
-                        <div class="testimony__texts">
-                            <h3 class="testimony__name">Ing Jaime</h3>
-                            <p class="testimony__verification">Ing Escada</p>
-                        </div>
-                    </div>
-                    <p class="testimony__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ducimus quaerat ex est sint veritatis doloribus quasi qui, harum dolorum. Maxime officia veniam veritatis et, itaque tempore voluptate incidunt quidem.
-                    Rerum soluta autem optio suscipit nisi modi fugiat, sunt harum facilis praesentium quis repudiandae quo, earum ab beatae a maxime ipsa voluptates numquam! Quibusdam officia amet accusantium in, adipisci eligendi!</p>
-                </article>
-
-                <article class="testimony__item">
-                    <div class="testimony__person">
-                        <img src="assets/user.png" alt="" class="testimony__img">
-                        <div class="testimony__texts">
-                            <h3 class="testimony__name">Ing Jaime</h3>
-                            <p class="testimony__verification">Ing Escada</p>
-                        </div>
-                    </div>
-                    <p class="testimony__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ducimus quaerat ex est sint veritatis doloribus quasi qui, harum dolorum. Maxime officia veniam veritatis et, itaque tempore voluptate incidunt quidem.
-                    Rerum soluta autem optio suscipit nisi modi fugiat, sunt harum facilis praesentium quis repudiandae quo, earum ab beatae a maxime ipsa voluptates numquam! Quibusdam officia amet accusantium in, adipisci eligendi!</p>
-                </article>
-            </div>
-        </section>
     </main>
-    <footer class="footer">
+    <footer id="contact_me" class="footer">
         <div class="container footer__grid">
             <nav class="nav nav--footer">
-                <a href="#" class="nav__items nav__items--footer">Inicio</a>
-                <a href="#" class="nav__items nav__items--footer">Sobre mi</a>
-                <a href="#" class="nav__items nav__items--footer">Mis habilidades</a>
-                <a href="#" class="nav__items nav__items--footer">Proyectos</a>
+                <a href="#main" class="nav__items nav__items--footer">Main</a>
+                <a href="#about_me" class="nav__items nav__items--footer">About me</a>
             </nav>
             <section class="footer__contact">
-                <h3 class="footer__title">Contactame</h3>
+                <h3 class="footer__title">Contact me</h3>
                 <div class="footer__icons">
                     <span class="footer__container-icons">
-                        <a href="#" class="fab fa-linkedin footer__icon"></a>
+                        <a href="https://www.linkedin.com/in/mario-de-jesus-camacho-nataren-731416180/" target="_blank" class="fab fa-linkedin footer__icon"></a>
                     </span>
                     <span class="footer__container-icons">
-                        <a href="#" class="fab fa-whatsapp-square footer__icon"></a>
+                        <a href="https://api.whatsapp.com/send?phone=529612219110&text=Hola!%20Quiero%20generar%20mas%20ventas!" target="_blank" class="fab fa-whatsapp-square footer__icon"></a>
+                    </span>
+                    <span class="footer__container-icons">
+                        <a href="mailto:marioj.nataren@gmail.com" class="fa fa-envelope-o footer__icon"></a>
                     </span>
                 </div>
             </section>
         </div>
     </footer>
-
- 
-
     <script src="https://kit.fontawesome.com/edfc34fbca.js" crossorigin="anonymous"></script>
+    <script src="./js/scripts.js"></script>
 </body>
 </html>
