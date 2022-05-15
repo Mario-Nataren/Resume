@@ -34,6 +34,15 @@ toggleTheme.addEventListener('click',()=>{
     }
 });
 
+const header = document.getElementById('header');
+window.addEventListener('scroll',()=>{
+    var scroll = window.scrollY;
+    if(scroll>10){
+        header.style.background = 'var(--background)';
+    }else{
+        header.style.background = 'transparent';
+    }
+})
 // toggleColors.addEventListener('click',(e)=>{
 //     rootStyle.setProperty('--primary-color', e.target.dataset.color);
 // });

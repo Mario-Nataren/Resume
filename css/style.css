@@ -13,19 +13,24 @@
     --border-radius: 0.4em ;
     --skills-bar-length: 0%;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Raleway', sans-serif;
     background-color: var(--bg-color);
     color: var(--text-color);
     transition: var(--transition);
     font-family: sans-serif;
+    /* padding: 75px 0px 0; */
 }
 body.dark{
     --text-color: hsl(0,0%,83%);
     --bg-color: hsl(0,0%,15%);
     --bg-card-color: hsl(0,0%,20%);
     --background: rgb(11, 30, 55);
-    --color-secondary:#1d0e2b;
+    --color-secondary:hsl(0,0%,20%);
+    /* --color-secondary:#1d0e2b; */
 }
 .container{
     width: 90%;
@@ -59,6 +64,13 @@ body.dark{
     height: 75px;
     padding: 0 1.5em;
     transition: var(--transition);
+}
+.nav__header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--background);
 }
 .switches{
     display: flex;
@@ -448,7 +460,7 @@ body.dark{
     border-radius: 7px;
     padding: 30px 25px;
     color: #fff;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .experience__company{
     display: flex;
@@ -485,7 +497,7 @@ body.dark{
 /* FOTTER */
 
 .footer{
-    background: var(--color-primary);
+    background: var(--background);
 }
 
 .footer__grid{
@@ -615,12 +627,10 @@ body.dark{
         padding: 0 10px;
         border: 0;
     }
-
     .hero__texts{
         text-align: center;
         margin-bottom: 100px;
     }
-
     .hero__title{
         font-size: 2rem;
     }
@@ -650,7 +660,7 @@ body.dark{
         grid-auto-rows: 250px;
         gap: 10px;
 }
-/*Testimonio*/
+/*Experiencias*/
 .experience__item{
     padding: 30px 15px;
 }

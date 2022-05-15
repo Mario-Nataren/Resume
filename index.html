@@ -11,7 +11,7 @@
 <body class="dark">
     <header id="main" class="hero">
         <div class="container">
-            <nav class="nav">
+            <nav id="header" class="nav">
                 <div class="switches">
                     <div id="toggle-theme" class="toggle-theme">
                         <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
@@ -144,6 +144,35 @@
                         </div>
                     </div>
                 </article>
+                <article class="card">
+                    <h2 class="card__title">Programming Lenguages</h2>
+                    <div class="Skills">
+                        <div class="skills__item">
+                        <p class="skills__tech">C#</p>
+                        <div class="skills__bar skills__bar--90"></div>
+                        </div>
+                        <div class="skills__item">
+                        <p class="skills__tech">Visual Basic</p>
+                        <div class="skills__bar skills__bar--80"></div>
+                        </div>
+                        <div class="skills__item">
+                        <p class="skills__tech">Python</p>
+                        <div class="skills__bar skills__bar--70"></div>
+                        </div>
+                        <div class="skills__item">
+                        <p class="skills__tech">HTML</p>
+                        <div class="skills__bar skills__bar--80"></div>
+                        </div>
+                        <div class="skills__item">
+                        <p class="skills__tech">CCS</p>
+                        <div class="skills__bar skills__bar--80"></div>
+                        </div>
+                        <div class="skills__item">
+                        <p class="skills__tech">JavaScript</p>
+                        <div class="skills__bar skills__bar--80"></div>
+                        </div>
+                    </div>
+                </article>
             </div>
         </section>
         <section class="container">
@@ -185,7 +214,7 @@
 
                 <article class="experience__item">
                     <div class="experience__company">
-                        <img src="assets/user.png" alt="" class="experience__img">
+                        <img src="assets/images/AIMSA.png" alt="" class="experience__img">
                         <div class="experience__texts">
                             <h3 class="experience__name">Field Services Engineer at</h3>
                             <p class="experience__verification">AIMSA </br> Jun 2018-Nov 2019 </p>
@@ -198,13 +227,13 @@
 
         <section id="projects" class="projects">
             <div class="container">
-                <h2 class="subtitle">Proyectos</h2>
+                <h2 class="subtitle">Proyects</h2>
                 <div class="projects__grid">
                     <article class="projects__item">
                         <img src="assets/images/VSS.png" class="projects__img">
                         <a href="https://www.sissamx.com.mx/VSS" target="_blank" class="projects__hover">
                             <h2 class="projects__title">VSS</h2>
-                            <P>Colaboration in the platform VSS</P>
+                            <P>Colaboration in the platform VSS made in AVEVA System Platform</P>
                             <i class="far fa-file-alt projects__icon"></i>
                         </a>
                     </article>
@@ -212,29 +241,31 @@
                         <img src="assets/images/UMA.png" alt="" class="projects__img">
                         <div class="projects__hover">
                             <h2 class="projects__title">HVAC</h2>
-                            <P>Programming PLC and HMI to control HVAC equipment</P>
+                            <P>Automate and control HVAC equipment for the pharmaceutical industry. Maintaining the ideal conditions of humidity, pressure and temperature</P>
                             <i class="far fa-file-alt projects__icon"></i>
                         </div>
                     </article>
                     <article class="projects__item">
-                        <img src="assets/images/CIP.jpg" alt="" class="projects__img">
-                        <div class="projects__hover">
-                            <h2 class="projects__title">IGNITION</h2>
-                            <P>Integrated Clean in place System to COCA-COLA Apizaco</P>
-                            <i class="far fa-file-alt projects__icon"></i>
-                        </div>
-                    </article>
-                    <article class="projects__item">
-                        <img src="assets/user.png" alt="" class="projects__img">
+                        <img src="assets/images/CIP1C.png" alt="" class="projects__img">
                         <div class="projects__hover">
                             <h2 class="projects__title">CIP</h2>
+                            <P>Automate and control cleaning-in-place systems for the food and beverage industry. Maintaining safety standards.</P>
                             <i class="far fa-file-alt projects__icon"></i>
                         </div>
                     </article>
                     <article class="projects__item">
-                        <img src="assets/user.png" alt="" class="projects__img">
+                        <img src="assets/images/CIP.png" alt="" class="projects__img">
+                        <div class="projects__hover">
+                            <h2 class="projects__title">PREBATCH</h2>
+                            <P>System to mix and prepare carbonated drinks made in Ignition.</P>
+                            <i class="far fa-file-alt projects__icon"></i>
+                        </div>
+                    </article>
+                    <article class="projects__item">
+                        <img src="assets/images/BATCH.jpg" alt="" class="projects__img">
                         <div class="projects__hover">
                             <h2 class="projects__title">Batch System</h2>
+                            <P>System to mix and prepare carbonated drinks made in Wonderware Intouch.</P>
                             <i class="far fa-file-alt projects__icon"></i>
                         </div>
                     </article>
@@ -247,6 +278,7 @@
             <nav class="nav nav--footer">
                 <a href="#main" class="nav__items nav__items--footer">Home</a>
                 <a href="#about_me" class="nav__items nav__items--footer">About me</a>
+                <a href="/assets/file/MarioJesusCamachoNataren.pdf" download="resumeMarioCamacho" class="nav__items nav__items--footer">Download resume</a>
             </nav>
             <section class="footer__contact">
                 <h3 class="footer__title">Contact me</h3>
@@ -255,7 +287,7 @@
                         <a href="https://www.linkedin.com/in/mario-de-jesus-camacho-nataren-731416180/" target="_blank" class="fab fa-linkedin footer__icon"></a>
                     </span>
                     <span class="footer__container-icons">
-                        <a href="https://api.whatsapp.com/send?phone=529612219110&text=Hola!%20Quiero%20generar%20mas%20ventas!" target="_blank" class="fab fa-whatsapp-square footer__icon"></a>
+                        <a href="https://api.whatsapp.com/send?phone=529612219110&text=Buen dia!%20vi%20tu%20perfil" target="_blank" class="fab fa-whatsapp-square footer__icon"></a>
                     </span>
                     <span class="footer__container-icons">
                         <a href="mailto:marioj.nataren@gmail.com" class="fa fa-envelope-o footer__icon"></a>
