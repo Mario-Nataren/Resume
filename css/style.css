@@ -5,7 +5,7 @@
     --color-secondary:#764ba2;
     --boton-padding: 20px 40px;
 
-    --primary-color: hsl(214,84%,56%);
+    --primary-color: #764ba2;
     --text-color: hsl(0,0%,31%);
     --bg-color: hsl(0,0%,90%);
     --bg-card-color: hsl(0,0%,98%);
@@ -30,6 +30,7 @@ body.dark{
     --bg-card-color: hsl(0,0%,20%);
     --background: rgb(11, 30, 55);
     --color-secondary:hsl(0,0%,20%);
+    --primary-color: hsl(214,84%,56%);
     /* --color-secondary:#1d0e2b; */
 }
 .container{
@@ -194,7 +195,7 @@ body.dark{
 .presentation__cta{
     display: inline-block;
     margin-top: 30px;
-    background: var(--color-primary);
+    background: var(--primary-color);
     color: #fff;
     text-decoration: none;
     padding: var(--boton-padding);
